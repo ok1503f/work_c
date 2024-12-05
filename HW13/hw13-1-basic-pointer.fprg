@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="hw13-1-basic-pointer"/>
+        <attribute name="authors" value="titan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2567-12-03 09:53:06 PM"/>
+        <attribute name="created" value="dGl0YW47REVTS1RPUC1OUlM1NlJLOzI1NjctMTItMDM7MDc6MDA6MDkgUE07MjkyMA=="/>
+        <attribute name="edited" value="dGl0YW47REVTS1RPUC1OUlM1NlJLOzI1NjctMTItMDM7MDk6NTM6MDYgUE07MTszMDM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, x, temp" type="Integer" array="False" size=""/>
+            <declare name="name" type="String" array="True" size="2"/>
+            <declare name="age" type="Integer" array="True" size="2"/>
+            <assign variable="i" expression="0"/>
+            <assign variable="x" expression="0"/>
+            <for variable="i" start="0" end="1" direction="inc" step="1">
+                <output expression="&quot;name:&quot;" newline="True"/>
+                <input variable="name[i]"/>
+                <output expression="&quot;age:&quot;" newline="True"/>
+                <input variable="age[i]"/>
+            </for>
+            <output expression="&quot;** RESULT **&quot;" newline="True"/>
+            <for variable="x" start="0" end="1" direction="inc" step="1">
+                <output expression="&quot;Name  &quot;&amp;name[x]" newline="True"/>
+                <output expression="&quot;Age  &quot; &amp;age[x]" newline="True"/>
+            </for>
+            <assign variable="temp" expression="age[0]"/>
+            <assign variable="age[0]" expression="age[1]"/>
+            <assign variable="age[1]" expression="temp"/>
+            <output expression="&quot;** SWAP AGE **&quot;" newline="True"/>
+            <for variable="x" start="0" end="1" direction="inc" step="1">
+                <output expression="&quot;Name  &quot;&amp;name[x]" newline="True"/>
+                <output expression="&quot;Age  &quot; &amp;age[x]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
