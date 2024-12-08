@@ -6,7 +6,7 @@ int main()
     int number;
     int input;
 
-    file = fopen("a15-2.txt", "r");
+    file = fopen("../util/a15-2.txt", "r");
     fscanf(file, "%d", &number);
 
     printf("Input value from user to B: ");

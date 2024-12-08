@@ -6,7 +6,7 @@ int main()
     char name[50], gender[10], maxName[50]; // Added maxName array
     int age;
     float gpa, maxGpa = 0;
-    FILE *file = fopen("a15-3.txt", "r");
+    FILE *file = fopen("../util/a15-3.txt", "r");
 
     if (file == NULL)
     {

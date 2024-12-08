@@ -4,7 +4,7 @@ int main()
 {
     char name[50], age[10], gpa[10], gender[10];
 
-    FILE *file = fopen("a15-3.txt", "r");
+    FILE *file = fopen("../util/a15-3.txt", "r");
     if (file == NULL)
     {
         perror("Error opening file");
