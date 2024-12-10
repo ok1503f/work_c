@@ -12,7 +12,7 @@ int main()
     printf("Input value from user to B: ");
     scanf("%d", &input);
 
-    printf("Read value to A is %d\n", number + input);
+    printf("Read value to A is %d\n", number);
     printf("Input value from user is %d\n", input);
     printf("Answer = %d\n", number + input);
 }

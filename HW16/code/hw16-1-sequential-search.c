@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-int SequentialSearch(int data[], int n, int find);
-
 int main()
 {
     int RealData[6] = {7, 4, 1, 8, 3, 2};

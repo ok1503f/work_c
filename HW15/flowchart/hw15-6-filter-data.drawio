@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="iHiOsUQ1TZHb9WTthrEA">
+    <mxGraphModel dx="2390" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="seDuFXK38yci4oABPJHl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-1" target="seDuFXK38yci4oABPJHl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;start&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;end&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-3" target="seDuFXK38yci4oABPJHl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-3" value="file = fgets(&quot;a15-6.txt)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="363" y="140" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-4" target="seDuFXK38yci4oABPJHl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-4" target="seDuFXK38yci4oABPJHl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-4" value="while(fgets(line, line, file)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318" y="240" width="215" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-5" target="seDuFXK38yci4oABPJHl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-5" value="sscanf(line, employee[count].name employee[count].age, employee[count].salary,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;employee[count].job&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="550" y="340" width="355" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-6" target="seDuFXK38yci4oABPJHl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-6" value="count++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="550" y="430" width="355" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-11" target="seDuFXK38yci4oABPJHl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-11" value="find_highest_salary(employee, count, &quot;Programmer&quot;, result)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="375" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-12" target="seDuFXK38yci4oABPJHl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-12" value="find_highest_salary(employee, count, &quot;Support&quot;, result)" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="375" y="710" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-13" target="seDuFXK38yci4oABPJHl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-13" value="output result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-14" target="seDuFXK38yci4oABPJHl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-14" value="output result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-21" target="seDuFXK38yci4oABPJHl-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-21" value="average_salary = calculate_average_salary(employee, count)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="248" y="950" width="355" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-22" value="output&lt;br&gt;&quot;Average Salary: &quot; aveerage_salary &quot;Bath&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="297" y="1040" width="257" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-22" target="seDuFXK38yci4oABPJHl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-26" target="seDuFXK38yci4oABPJHl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-26" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;find_highest_salary(employee, count, *job, *result)&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="40" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-27" target="seDuFXK38yci4oABPJHl-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-27" value="for i &amp;lt; count, i++" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1052.5" y="240" width="215" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-28" target="seDuFXK38yci4oABPJHl-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-28" value="strcmp(employee[i].job, job) == 0 &amp;amp;&amp;amp; employee[i].salary &amp;gt; max_salary" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="330" width="275" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-29" target="seDuFXK38yci4oABPJHl-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-29" value="max_salary = employee[i].salary" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="530" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-30" target="seDuFXK38yci4oABPJHl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-30" value="max_index = i" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="610" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-36" target="seDuFXK38yci4oABPJHl-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-36" value="max_index&amp;nbsp; != -1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1052.5" y="660" width="215" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-27" target="seDuFXK38yci4oABPJHl-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-40" value="output&lt;div&gt;result, job, employee[max_index].name, employee[max_index].age, employee[max_index].salary&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1018.75" y="840" width="282.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-41" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;end&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="970" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-40" target="seDuFXK38yci4oABPJHl-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-45" target="seDuFXK38yci4oABPJHl-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-45" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;calculate_average_salary(employee, count)&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="40" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-46" target="seDuFXK38yci4oABPJHl-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-46" value="for i &amp;lt; count, i++" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1692.5" y="250" width="215" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-47" target="seDuFXK38yci4oABPJHl-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-47" value="total_salary += employee[i].salary" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="400" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;return total_salary / count&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="580" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seDuFXK38yci4oABPJHl-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="seDuFXK38yci4oABPJHl-46" target="seDuFXK38yci4oABPJHl-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

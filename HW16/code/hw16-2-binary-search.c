@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-int BinarySearch(int data[], int n, int find);
-
 int main()
 {
     int RealData[6] = {1, 2, 4, 5, 8, 9};

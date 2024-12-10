@@ -63,7 +63,7 @@ int main()
     }
 
     Person *maxAgePerson = &people[0];
-    Person *minAgePerson = &people[0];
+    Person *minAgePerson = &people[0];  
 
     for (int i = 0; i < numPeople; i++)
     {
