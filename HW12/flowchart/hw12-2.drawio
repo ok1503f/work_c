@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="jVipiZOdN9MEECmnPquM">
+    <mxGraphModel dx="2899" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_dWWEerpfBo0j11rU688-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dWWEerpfBo0j11rU688-1" target="_dWWEerpfBo0j11rU688-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;start&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;end&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dWWEerpfBo0j11rU688-4" target="_dWWEerpfBo0j11rU688-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-4" value="Student students[4]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-5" value="Student = { Name, score}" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="60" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dWWEerpfBo0j11rU688-6" target="_dWWEerpfBo0j11rU688-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dWWEerpfBo0j11rU688-6" target="_dWWEerpfBo0j11rU688-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-6" value="for ( i &amp;lt; 4, i++)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-707.5" y="250" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dWWEerpfBo0j11rU688-9" target="_dWWEerpfBo0j11rU688-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-9" value="input students[i].Name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="300" width="167.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dWWEerpfBo0j11rU688-10" target="_dWWEerpfBo0j11rU688-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-10" value="input students[i].Score" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-566.25" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dWWEerpfBo0j11rU688-15" target="_dWWEerpfBo0j11rU688-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-15" value="for ( i = 3, i &amp;gt;= 0, i--)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-718.75" y="440" width="137.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dWWEerpfBo0j11rU688-17" target="_dWWEerpfBo0j11rU688-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-17" value="output students[i].Name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="520" width="167.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_dWWEerpfBo0j11rU688-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_dWWEerpfBo0j11rU688-15" target="_dWWEerpfBo0j11rU688-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

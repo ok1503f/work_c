@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="b_HmeS2h7GLIVmY4P220">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aZIPiiUygwza0W-rVBUq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-1" target="aZIPiiUygwza0W-rVBUq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;start&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-2" target="aZIPiiUygwza0W-rVBUq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-2" target="aZIPiiUygwza0W-rVBUq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-2" value="if ( n &amp;lt;= 0 )" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="230" width="142" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-3" target="aZIPiiUygwza0W-rVBUq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-3" value="input value" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="150" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-4" target="aZIPiiUygwza0W-rVBUq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-4" value="sum += number" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="526" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;end&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="960" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-6" value="output&lt;div&gt;&quot;Please enter a positive integer for n.)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;return 1&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-8" target="aZIPiiUygwza0W-rVBUq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-8" target="aZIPiiUygwza0W-rVBUq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-8" value="for ( i = 1, i &amp;lt;= n, i++)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="460" width="142" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-9" target="aZIPiiUygwza0W-rVBUq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-9" value="input number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-13" target="aZIPiiUygwza0W-rVBUq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-13" value="avg = (float) sum / n" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="365" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-14" value="output&lt;div&gt;&quot;Sum =&quot;, sum&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="800" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-15" value="output&lt;div&gt;&quot;Avg=&quot;, avg&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="880" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-6" target="aZIPiiUygwza0W-rVBUq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-14" target="aZIPiiUygwza0W-rVBUq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIPiiUygwza0W-rVBUq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aZIPiiUygwza0W-rVBUq-15" target="aZIPiiUygwza0W-rVBUq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

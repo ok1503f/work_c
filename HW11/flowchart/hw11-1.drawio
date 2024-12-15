@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="q7JdYBtYaQr35FOhsBmi">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bbSGq8E03qjJeLnVMVNX-1" target="bbSGq8E03qjJeLnVMVNX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;start&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;end&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375.5" y="440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bbSGq8E03qjJeLnVMVNX-3" target="bbSGq8E03qjJeLnVMVNX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-3" value="input num1, num2, num3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="150" width="161" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bbSGq8E03qjJeLnVMVNX-5" target="bbSGq8E03qjJeLnVMVNX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-5" value="sum = calculateSum(num1, num2, num3)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="345" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-6" value="output sum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="350" width="161" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bbSGq8E03qjJeLnVMVNX-6" target="bbSGq8E03qjJeLnVMVNX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;calculateSum(a, b, c)&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;return a + b + c&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="625" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbSGq8E03qjJeLnVMVNX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bbSGq8E03qjJeLnVMVNX-11" target="bbSGq8E03qjJeLnVMVNX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
